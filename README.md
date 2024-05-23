@@ -2,14 +2,31 @@
 
 # A simple (demo) react component library
 
+
 ## Installation
 You can install it with npm (don't expect much fanciness):
 ```bash
-npm i @zchristy/my-component-library
+npm i @zchristy/react-vite-component-library-test
 ```
 
 ## Usage
 ```javascript
-import { Button, Card } from '@zchristy/my-component-library';
+import { Button, Card } from '@zchristy/react-vite-component-library-test';
 ```
-See this file for an example on using this library: https://github.com/zchristy/my-component-library-consumer/blob/main/src/App.tsx
+## Test Componentes Locally: 
+- Fork or Clone [Repo](https://github.com/zchristy/react-vite-component-library-test)
+
+- Install npm packages
+```Bash
+> npm i
+```
+- Creates dist/ directory
+```Bash
+> npm run build
+```
+
+- Starts up local client server, viewable on browser. (Need to have ran `npm run build` before starting dev server)
+```Bash
+> npm run dev
+```
+
